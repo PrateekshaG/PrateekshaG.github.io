@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Prateeksha Vijay Gawande</title>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/media-selection.js"></script>
+	<script type="text/javascript" src="js/console.js"></script>
+	<script type="text/javascript" src="js/projects/projects.js"></script>
+	<script type="text/javascript" src="js/projects/projects-cards-updater.js"></script>
+	<script type="text/javascript" src="js/projects/languages-field.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/cards.css">
+	<link rel="stylesheet" type="text/css" href="styles/timeline.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/console.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="icon" href="assets/favicon.ico">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<nav id="mysidenav" class="sidenav">
+		<div id="mysidenavcontent" class="sidenavcontent">
+			<img src="assets/profile-pic.png" alt="Profile picture" class="profile-picture" loading="lazy">
+			<p class="sidebarname">Prateeksha Gawande</p>
+			<hr>
+			<p class="sidebarcitation">"Great UX/UI design is where empathy meets innovation, crafting experiences that
+				 not only delight but empower users to connect effortlessly with technology."</p>
+			<hr>
+			<div class="row">
+				<div class="column">
+					<a href="https://www.linkedin.com/in/prateevg/" target="_blank">
+						<img id="linkedin" src="assets/medias/linkedin.png" onMouseOver="selected(this)"
+							onMouseOut="unselected(this)" alt="Go to LinkedIn profile" class="mediaicon" loading="lazy"> 
+					</a>
+				</div>
+				<div class="column">
+					<a href="https://github.com/PrateekshaG" target="_blank">
+						<img id="github" src="assets/medias/github.png" onMouseOver="selected(this)"
+							onMouseOut="unselected(this)" alt="Go to GitHub profile" class="mediaicon" loading="lazy">
+					</a>
+				</div>
+				<div class="column">
+					<a href="https://www.facebook.com/prateeksha.gawande.9" target="_blank">
+						<img id="facebook" src="assets/medias/facebook.png" onMouseOver="selected(this)"
+							onMouseOut="unselected(this)" alt="Go to Facebook profile" class="mediaicon" loading="lazy">
+					</a>
+				</div>
+				<div class="column">
+					<a href="https://www.instagram.com/flawsome_pvg/" target="_blank">
+						<img id="instagram" src="assets/medias/instagram.png" onMouseOver="selected(this)"
+							onMouseOut="unselected(this)" alt="Go to Instagram profile" class="mediaicon" loading="lazy">
+					</a>
+				</div>
+			</div>
+
+			<div class="nav_btns">
+				<button id="btn_aboutme" onClick="navscroll(this)">ABOUT ME</button><br>
+				<button id="btn_myskills" onClick="navscroll(this)">MY SKILLS</button><br>
+				<button id="btn_work" onClick="navscroll(this)">WORK EXPERIENCE</button><br>
+				<button id="btn_education" onClick="navscroll(this)">EDUCATION</button><br>
+				<button id="btn_projects" onClick="navscroll(this)">PROJECTS</button><br>
+			</div>
+			
+			<div class="nav_bottom_btns">
+				<div class="column_button">
+					<button onclick="location.href='mailto:prateevg@gmail.com'" id="btn_contactme">CONTACT ME</button>
+				</div>
+				<div class="column_button">
+					<button onclick="location.href='https://drive.google.com/file/d/1P5df9JHa8mBXqgGBbAh3u4vbbRtNUfst/view?usp=drivesdkz'" target="_blank" id="btn_viewresume">GET MY CV</button>
+				</div>							
+			</div>
+
+		</div>
+	</nav>
+	<div id="mycontent" class="content">
+		<section id="about_me" class="scroll-element">
+			<div class="title">
+				<h1 class="firstname">
+					Prateeksha
+				</h1>
+				<h1 class="lastname">
+					Gawande
+				</h1>
+			</div>
+			<div class="container">
+				<img id="console" class="console_img" src="assets/console.png" loading="lazy">
+				<div id="typedtext" class="typedtextclass"> </div>
+			</div>
+		</section>
+
+		<section id="my_skills" class="aftertw scroll-element">
+			<h1 class="titlehead">
+				MY SKILLS
+			</h1>
+			<div id="skills_grid_view" class="skill-cards">
+				<div id="Tools" class="card">
+					<h3 class="card_title"><b>Tools</b></h3>
+					<ul class="card_list">
+						<li>Figma</li>
+						<li>Sketch</li>
+						<li>Adobe Creative Suite 
+							(XD, Photoshop, Illustrator, 
+							InDesign, After Effects,Git)</li>
+						<li>Miro</li>
+						<li>Framer</li>
+					</ul>
+				</div>
+				<div id="Programming Language" class="card">
+					<h3 class="card_title">Programming Language</h3>
+					<ul class="card_list">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>SCSS</li>
+						<li>JavaScript</li>
+						<li>Java</li>
+						<li>MySQL</li>
+						<li>PHP</li>
+					</ul>
+				</div>
+				<div id="database_management" class="card">
+					<h3 class="card_title"> Design Skills</h3>
+					<ul class="card_list">
+						<li>User Research, User Centered Designs, WCAG, Assistive technology, Accessibility</li>
+						<li>Equity-focused design, Responsive web design, UX design framework, Typography, User Flows</li>
+						<li>Sitemaps, Iconography, Empathy maps, User stories, Storyboards, Wireframing(lo-fi to hi-fi), Prototyping (lo-fi to hi-fi) </li>
+						<li>Rapid Sketching, Competitive audits, User-Centric Testing, Feedback, Creative Solutions, Workflow Diagrams, Design sprints</li>
+						<li>Information architecture, Process Flows, Style Guide, Use Cases</li>
+					</ul>
+				</div>
+				<div id="soft_skills" class="card">
+					<h3 class="card_title">Soft Skills</h3>
+					<ul class="card_list">
+						<li>Leadership</li>
+						<li>Team Collaboration</li>
+						<li>Technical Documentation</li>
+						<li>Problem-Solving and Troubleshooting</li>
+						<li>Effective Communication (Written and Verbal)</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="work_experience" class="aftertw scroll-element">
+
+			<h1 class="titlehead">
+				WORK EXPERIENCE
+			</h1>
+			<div class="we_timeline">
+				<div class="we_container left">
+					<div class="we_date">Aug 2023 - May 2024</div>
+					<img class="icon" alt="George Mason Univerity Logo" src="assets/timeline/mason-logo.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>Graduate Teaching Assistant</h2>
+						<h3>George Mason University</h3>
+					</div>
+				</div>
+				<div class="we_container right">
+					<div class="we_date">Mar 2020 - July 2023</div>
+					<img class="icon" alt="Delmon Logo" src="assets/timeline/delmon_solutions_logo.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>UX Designer</h2>
+						<h3>Delmon Solutions Pvt Ltd</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="education" class="aftertw scroll-element">
+			<h1 class="titlehead">
+				EDUCATION
+			</h1>
+			<div class="we_timeline">
+				<div class="we_container left">
+					<div class="we_date_education">2022 - 2024</div>
+					<img class="icon" alt="GMU Logo" src="assets/timeline/mason-logo.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>M.S. Information Systems</h2>
+						<h3>George Mason University, Fairfax</h3>
+					</div>
+				</div>
+				<div class="we_container right">
+					<div class="we_date_education">2017 - 2020</div>
+					<img class="icon" alt="Modern Logo" src="assets/timeline/modern-logo.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>MBA in Information Technology & HR</h2>
+						<h3>Pune Univerity, Modern Institute of Business Management, Pune</h3>
+					</div>
+				</div>
+				<div class="we_container left">
+					<div class="we_date_education">2012 - 2017</div>
+					<img class="icon" alt="Zeal Logo" src="assets/timeline/zeal-logo.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>B.E Computer Engineering</h2>
+						<h3>Pune Univerity, Zeal College of Engineering & Reserach, Pune</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="aftertw scroll-element last-section">
+			<h1 class="titlehead">
+				PROJECTS
+			</h1>
+			<input type="radio" name="slider" id="left_slider">
+			<input type="radio" name="slider" id="center_slider" checked>
+			<input type="radio" name="slider" id="right_slider">			
+			<div id="projects_view" class="projects-cards">
+				<label id="right_card" for="right_slider" class="right_card card clearfix">
+					<h1  class="card_title">Games</h1> 
+					<img id="right_img" class="card_logo" src="assets/projects/tic_tac_toe.png" loading="lazy"/>
+					<p class="card_description">
+						Explore our Tic Tac Toe game projects, a showcase of seamless UX and UI design, featuring intuitive interfaces and engaging user experiences.
+					</p>
+					<button id="right_card_button" onclick="location.href='https://github.com/PrateekshaG/tic-tac-toe'" class="projectsbutton"></button>
+				</label>
+				<label id="left_card" for="left_slider"  class="left_card card clearfix">
+					<h1  class="card_title">Portfolio</h1> 
+					<img id="left_img" class="card_logo" loading="lazy" src="assets/projects/portfolio.png"/>
+					<p class="card_description">
+						Explore my portfolio to witness how I blend UX/UI design principles with HTML, CSS, and JavaScript to create engaging and user-friendly digital experiences.
+					</p>
+					<button id="left_card_button" onclick="location.href='https://prateekshag.github.io'" class="projectsbutton"></button>
+				</label>
+				<label id="center_card" for="center_slider" class="center_card card clearfix">
+					<h1  class="card_title">Toys N Games</h1> 
+					<img id="center_img" class="card_logo" src="assets/projects/toy-n-games.png" loading="lazy"/>
+					<p class="card_description">
+						Discover the ultimate play experience where exceptional UX and UI design bring joy and excitement to every toy and game!.
+					</p>
+					<button id="center_card_button" onclick="location.href='https://github.com/PrateekshaG/SWE_632/tree/main'" class="projectsbutton"></button>
+				</label>
+			</div>
+		</section>
+	</div>	
+</body>
+
+</html>
+
+
+
