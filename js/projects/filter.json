@@ -1,0 +1,17 @@
+[
+    {
+        "repo": "Games",
+        "title": "Games",
+        "logo": "assets/projects/tic_tac_toe.png"
+    },
+    {
+        "repo": "RubyOnRails",
+        "title": "Ruby on Rails",
+        "logo": "assets/projects/ruby11.png"
+    },
+    {
+        "repo": "sudoariel.github.io",
+        "title": "React",
+        "logo": "assets/projects/react.png"
+    }
+]
